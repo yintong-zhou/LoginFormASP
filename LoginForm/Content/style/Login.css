@@ -1,0 +1,24 @@
+﻿body {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+.loginform {
+    margin-top: 20%;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5%;
+    border: 1px solid gray;
+}
+
+.btn {
+    width: 100%;
+}
+
+.form-control {
+    border: 0 none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}

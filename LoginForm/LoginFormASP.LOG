@@ -1,0 +1,39 @@
+2020-05-13 17:17:32 ----EXCEPTION Message----
+2020-05-13 17:17:32 Couldn't set port
+Nome parametro: port
+2020-05-13 17:17:32 ----END Message----
+2020-05-13 17:17:32 ----EXCEPTION StackTrace----
+2020-05-13 17:17:32    in Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   in System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   in Npgsql.NpgsqlConnection.GetPoolAndSettings()
+   in Npgsql.NpgsqlConnection.set_ConnectionString(String value)
+   in Npgsql.NpgsqlConnection..ctor(String connectionString)
+   in LoginForm.PostGreSQL.ConnectDB(String ConnectionString) in D:\SVILUPPI\LoginFormASP\LoginForm\src\PostGreSQL.cs:riga 27
+   in LoginForm.Views.Login.btn_login_Click(Object sender, EventArgs e) in D:\SVILUPPI\LoginFormASP\LoginForm\Views\Login.aspx.cs:riga 41
+2020-05-13 17:17:32 ----END StackTrace----
+2020-05-13 17:18:41 ----EXCEPTION Message----
+2020-05-13 17:18:41 Couldn't set port
+Nome parametro: port
+2020-05-13 17:18:41 ----END Message----
+2020-05-13 17:18:41 ----EXCEPTION StackTrace----
+2020-05-13 17:18:41    in Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   in System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   in Npgsql.NpgsqlConnection.GetPoolAndSettings()
+   in Npgsql.NpgsqlConnection.set_ConnectionString(String value)
+   in Npgsql.NpgsqlConnection..ctor(String connectionString)
+   in LoginForm.PostGreSQL.ConnectDB(String ConnectionString) in D:\SVILUPPI\LoginFormASP\LoginForm\src\PostGreSQL.cs:riga 27
+   in LoginForm.Views.Login.btn_login_Click(Object sender, EventArgs e) in D:\SVILUPPI\LoginFormASP\LoginForm\Views\Login.aspx.cs:riga 41
+2020-05-13 17:18:41 ----END StackTrace----
+2020-05-13 17:28:22 ----EXCEPTION Message----
+2020-05-13 17:28:22 Couldn't set port
+Nome parametro: port
+2020-05-13 17:28:22 ----END Message----
+2020-05-13 17:28:22 ----EXCEPTION StackTrace----
+2020-05-13 17:28:22    in Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   in System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   in Npgsql.NpgsqlConnection.GetPoolAndSettings()
+   in Npgsql.NpgsqlConnection.set_ConnectionString(String value)
+   in Npgsql.NpgsqlConnection..ctor(String connectionString)
+   in LoginForm.PostGreSQL.ConnectDB(String ConnectionString) in D:\SVILUPPI\LoginFormASP\LoginForm\src\PostGreSQL.cs:riga 27
+   in LoginForm.Views.Login.btn_login_Click(Object sender, EventArgs e) in D:\SVILUPPI\LoginFormASP\LoginForm\Views\Login.aspx.cs:riga 41
+2020-05-13 17:28:22 ----END StackTrace----
