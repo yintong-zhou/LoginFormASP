@@ -66,3 +66,4 @@ D:\SVILUPPI\LoginFormASP\LoginForm\bin\System.Memory.xml
 D:\SVILUPPI\LoginFormASP\LoginForm\bin\System.Runtime.CompilerServices.Unsafe.xml
 D:\SVILUPPI\LoginFormASP\LoginForm\bin\System.Threading.Tasks.Extensions.xml
 D:\SVILUPPI\LoginFormASP\LoginForm\bin\System.ValueTuple.xml
+D:\SVILUPPI\LoginFormASP\LoginForm\bin\Nlog.config

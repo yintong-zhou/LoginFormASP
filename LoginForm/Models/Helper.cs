@@ -9,21 +9,6 @@ namespace LoginForm
 {
     class Helper
     {
-        public string db_ip { get; set; }
-        public string db_port { get; set; }
-        public string db_name { get; set; }
-        public string db_username { get; set; }
-        public string db_pwd { get; set; }
-
-        public void LoadConfigFILE()
-        {
-            db_ip = ConfigurationManager.AppSettings["Host"];
-            db_port = ConfigurationManager.AppSettings["Port"];
-            db_name = ConfigurationManager.AppSettings["Name"];
-            db_username = ConfigurationManager.AppSettings["User"];
-            db_pwd = ConfigurationManager.AppSettings["Pwd"];
-        }
-
         public void ExceptionWriter(string message, string stackTrace)
         {
             Logger logger = LogManager.GetCurrentClassLogger();

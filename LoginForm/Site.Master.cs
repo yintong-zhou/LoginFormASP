@@ -13,5 +13,16 @@ namespace LoginForm
         {
 
         }
+
+        protected void btn_logo_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/views/index", false);
+        }
+
+        protected void btn_logout_Click(object sender, EventArgs e)
+        {
+            Session["SessionID"] = null;
+            Response.Redirect("/views/login", false);
+        }
     }
 }
