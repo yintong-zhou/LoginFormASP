@@ -271,10 +271,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Cryptography.cs" />
-    <Compile Include="Models\DatabaseInfo.cs" />
-    <Compile Include="Models\Helper.cs" />
-    <Compile Include="Models\PostGreSQL.cs" />
+    <Compile Include="Assets\Cryptography.cs" />
+    <Compile Include="Assets\DatabaseInfo.cs" />
+    <Compile Include="Assets\Helper.cs" />
+    <Compile Include="Assets\PostGreSQL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
