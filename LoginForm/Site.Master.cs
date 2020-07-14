@@ -21,7 +21,7 @@ namespace LoginForm
 
         protected void btn_logout_Click(object sender, EventArgs e)
         {
-            Session["SessionID"] = null;
+            Session.Clear();
             Response.Redirect("/views/login", false);
         }
     }
